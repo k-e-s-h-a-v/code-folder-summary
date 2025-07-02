@@ -1,0 +1,53 @@
+{
+  "name": "code-folder-summary",
+  "displayName": "code-folder-summary",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:codeFolderSummaryView"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "code-folder-summary.helloWorld",
+      "title": "Hello World"
+    }],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codeFolderSummaryContainer",
+          "title": "Code Folder Summary",
+          "icon": "$(circuit-board)"
+        }
+      ]
+    },
+    "views": {
+      "codeFolderSummaryContainer": [
+        {
+          "id": "codeFolderSummaryView",
+          "name": "Summary",
+          "type": "webview"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.101.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.25.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
