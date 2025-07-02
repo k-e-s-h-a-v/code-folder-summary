@@ -3,6 +3,8 @@
   "displayName": "code-folder-summary",
   "description": "",
   "version": "0.0.1",
+  "publisher": "keshav",
+  "license": "SEE LICENSE IN LISENCE",
   "engines": {
     "vscode": "^1.101.0"
   },
