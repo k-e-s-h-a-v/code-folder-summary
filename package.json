@@ -3,8 +3,8 @@
   "displayName": "code-folder-summary",
   "description": "",
   "version": "0.0.1",
-  "publisher": "keshav",
-  "license": "SEE LICENSE IN LISENCE",
+  "publisher": "k-e-s-h-a-v",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -16,10 +16,6 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "code-folder-summary.helloWorld",
-      "title": "Hello World"
-    }],
     "viewsContainers": {
       "activitybar": [
         {
@@ -38,6 +34,10 @@
         }
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-e-s-h-a-v/code-folder-summary.git"
   },
   "scripts": {
     "lint": "eslint .",
