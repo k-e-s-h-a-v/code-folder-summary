@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#24292F"/>
+  <rect x="32" y="80" width="16" height="24" rx="4" fill="#4FC3F7"/>
+  <rect x="56" y="56" width="16" height="48" rx="4" fill="#81C784"/>
+  <rect x="80" y="32" width="16" height="72" rx="4" fill="#FFD54F"/>
+  <text 
+    x="70" 
+    y="120" 
+    font-family="'Quicksand', 'Arial Rounded MT Bold', 'Nunito', 'Segoe UI Rounded', 'Comic Sans MS', 'monospace'" 
+    font-size="50" 
+    font-weight="bold" 
+    fill="white" 
+    stroke="black" 
+    stroke-width="1" 
+    paint-order="stroke" 
+    textLength="50" 
+    >&lt; &gt;</text>
+</svg>

@@ -2,7 +2,7 @@
   "name": "code-folder-summary",
   "displayName": "code-folder-summary",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "k-e-s-h-a-v",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {
@@ -39,6 +39,7 @@
     "type": "git",
     "url": "git+https://github.com/k-e-s-h-a-v/code-folder-summary.git"
   },
+  "icon": "images/code-folder-summary.png", 
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
