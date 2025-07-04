@@ -1,8 +1,8 @@
 {
   "name": "code-folder-summary",
   "displayName": "code-folder-summary",
-  "description": "",
-  "version": "0.1.0",
+  "description": "A beautiful sidebar summary of file types in your workspace, with icons, counts, and folder ignore support.",
+  "version": "0.2.0",
   "publisher": "k-e-s-h-a-v",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {
@@ -39,6 +39,10 @@
     "type": "git",
     "url": "git+https://github.com/k-e-s-h-a-v/code-folder-summary.git"
   },
+  "bugs": {
+    "url": "https://github.com/k-e-s-h-a-v/code-folder-summary/issues"
+  },
+  "homepage": "https://github.com/k-e-s-h-a-v/code-folder-summary#readme",
   "icon": "images/code-folder-summary.png", 
   "scripts": {
     "lint": "eslint .",

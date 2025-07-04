@@ -49,7 +49,11 @@ This extension does not add any custom settings at this time.
 
 ## Release Notes
 
-### 1.0.0
+### 0.2.0
+- Refactored for maintainability: logic split into providers, utils, and state folders
+- Improved code structure and documentation
+
+### 0.1.0 (previous release)
 - Initial release: File type summary, ignore folders, theme-aware UI, Material Icons.
 
 ---
