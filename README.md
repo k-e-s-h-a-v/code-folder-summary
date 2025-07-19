@@ -2,6 +2,10 @@
 
 Code Folder Summary is a Visual Studio Code extension that gives you a quick, beautiful overview of the file types in your project. Instantly see a summary of all file types in your workspace.
 
+## Example
+
+![Screenshot of Code Folder Summary sidebar](images/feature-summary.png)
+
 ## Features
 
 - **Sidebar Summary:** Adds a new sidebar icon ("Code Folder Summary") to the Activity Bar.
@@ -29,10 +33,6 @@ Code Folder Summary is a Visual Studio Code extension that gives you a quick, be
    - Click the "+" button to select folders to ignore from the summary.
    - Remove an ignored folder by clicking the "×" on its chip.
    - Your ignored folders are saved and persist across sessions.
-
-## Example
-
-![Screenshot of Code Folder Summary sidebar](images/feature-summary.png)
 
 ## Requirements
 
